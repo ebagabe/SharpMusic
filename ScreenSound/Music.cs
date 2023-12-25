@@ -3,7 +3,7 @@
     public string Name;
     public string Artist;
     public int Duration;
-    public bool Available;
+    private bool Available;
 
     public void ViewTechnicalSheet()
     {
