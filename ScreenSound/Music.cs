@@ -5,6 +5,16 @@
     public int Duration;
     private bool Available;
 
+    public void WriteAvailable(bool value)
+    {
+        Available = value;
+    }
+
+    public bool ReadAvailable()
+    {
+        return Available;
+    }
+
     public void ViewTechnicalSheet()
     {
         Console.WriteLine($"\nName: {Name}");
