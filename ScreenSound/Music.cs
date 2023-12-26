@@ -4,7 +4,8 @@
     public string Artist { get; set; }
     public int Duration { get; set; }
     public bool Available { get; set; }
-    public string FullName { get; set; }
+    public string BriefDescription => 
+        $"The {Name} music belongs to the {Artist} band";
 
     public void ViewTechnicalSheet()
     {

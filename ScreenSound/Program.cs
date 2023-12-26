@@ -11,6 +11,8 @@ music2.Duration = 367;
 music2.Available = false;
 
 music1.ViewTechnicalSheet();
+Console.WriteLine(music1.BriefDescription);
+
 music2.ViewTechnicalSheet();
 
 
