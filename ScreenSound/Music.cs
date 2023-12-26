@@ -3,17 +3,7 @@
     public string Name;
     public string Artist;
     public int Duration;
-    private bool Available;
-
-    public void WriteAvailable(bool value)
-    {
-        Available = value;
-    }
-
-    public bool ReadAvailable()
-    {
-        return Available;
-    }
+    public bool Available { get; set; }
 
     public void ViewTechnicalSheet()
     {
